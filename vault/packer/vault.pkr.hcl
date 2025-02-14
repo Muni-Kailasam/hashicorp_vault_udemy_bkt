@@ -10,12 +10,12 @@ variable "vault_zip" {
 
 variable "vpc_id" {
   type    = string
-  default = "vpc-08f6df72d3ce9ba2e"
+  default = "vpc-08sdnf72d3ce9ba2e"
 }
 
 variable "subnet_id" {
   type    = string
-  default = "subnet-0c9d535da7799ea34"
+  default = "subnet-0c8fs535da7799ea34"
 }
 
 data "amazon-ami" "amazon-linux-2" {
