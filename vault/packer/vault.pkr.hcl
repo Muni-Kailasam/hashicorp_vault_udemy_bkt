@@ -1,11 +1,11 @@
 variable "aws_region" {
   type    = string
-  default = "${env("AWS_REGION")}"
+  default = "us-east-1"
 }
 
 variable "vault_zip" {
   type    = string
-  default = "C:\\Users\\btkra\\Downloads\\vault_1.7.1_linux_amd64.zip"
+  default = "https://releases.hashicorp.com/vault/1.7.1/vault_1.7.1_linux_amd64.zip"
 }
 
 variable "vpc_id" {
